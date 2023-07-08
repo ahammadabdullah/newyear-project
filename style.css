@@ -4,3 +4,40 @@
     border: 0ox;
 }
 
+.section1{
+    display: flex;
+    justify-content: space-around;
+    background-image: url('./images/banner/banner3.png');
+    width: 1600px;
+    height: 800px;
+    align-items: center;
+}
+
+.bg-description{
+    text-align: right;
+    color:white;
+}
+.bg{
+    background-image: url("./images/banner/banner3.png");
+}
+.bg-description h1{
+    font-weight: 800;
+    font-size: 65px;
+}
+
+.bg-description p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 24px;
+}
+.btn1 {
+    height: 64px;
+    width: 160px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    margin-top: 32px;
+    border-radius: 5px;
+    border: none;
+}
