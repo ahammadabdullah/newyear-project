@@ -41,3 +41,52 @@
     border-radius: 5px;
     border: none;
 }
+
+/* section2 starts from here  */
+
+
+
+.section2 h3{
+
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section2 p{
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.items{
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    list-style: none;
+}
+
+.image-text{
+    margin-right: 200px;
+}
+
+.image{
+    margin-left: 80px;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
