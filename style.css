@@ -66,7 +66,6 @@
     margin-top: 24px;
     margin-bottom: 16px;
 }
-
 .items{
     color: var(--dark-02, #444343);
     font-family: Work Sans;
@@ -74,11 +73,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    list-style: none;
+    list-style-type: "✓";
+    margin-right: 200px;
 }
 
 .image-text{
-    margin-right: 200px;
+    margin-right: 100px;
+    padding-left: 100px;
 }
 
 .image{
@@ -132,7 +133,7 @@
 
 .banner-container{
     background-image: url('./images/watch.png'),url(./images/gradient1.png);
-    background-blend-mode: multiply;
+    background-blend-mode: overlay;
     background-position: center;
     border-radius: 8px;
     /* /* background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%); */
