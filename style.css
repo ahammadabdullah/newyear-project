@@ -73,6 +73,7 @@
     line-height: 26px;
     list-style-type: "✓";
     margin-right: 200px;
+    
 }
 
 .image-text{
@@ -156,9 +157,7 @@
 .btn2{
     margin-left: 65px;
 }
-.banner-text{
-    
-}
+
 
 footer{
     height: 600px;
