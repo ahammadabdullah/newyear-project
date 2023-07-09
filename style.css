@@ -131,7 +131,8 @@
 }
 
 .banner-container{
-    background-image: url('./images/watch.png');
+    background-image: url('./images/watch.png'),url(./images/gradient1.png);
+    background-blend-mode: multiply;
     background-position: center;
     border-radius: 8px;
     /* /* background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%); */
@@ -140,6 +141,7 @@
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 135px;
+    margin-bottom: 130px;
 }
 
 .banner-text h2{
@@ -158,3 +160,67 @@
 .banner-text{
     
 }
+
+footer{
+    height: 600px;
+    width: 1600px;
+    background: var(--dark-01, #151414);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-details h3{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.footer-details p{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.footer-form h3{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#input_mail{
+    border-radius: 8px;
+    width: 325px;
+    height: 64px;
+    border: 1px solid #FFF;
+    background-color: #151414;
+    margin-top: 30px;
+}
+#input_mail::placeholder{
+    padding-left: 20px;
+}
+
+.btn3{
+    border-radius: 8px;
+    background: #005FAC;
+    color: white;
+}
+
+.social_icon{
+    color: white;
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+
